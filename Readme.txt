@@ -1,5 +1,5 @@
-Async Task runner with failure limits, success/failure signalling and limit to number of slots available
-To Run : open index.html in browser
+Async Task runner with success/failure signalling, binary heap, failure limiting and limit to number of slots available
+To Run : open index.html in browser (should run properly without local server for now)
 usage(execute below in console, also see concurrencyImprovedSaikat.js, after line 108 for usages) :
 
 var r =  new Runner(3);
