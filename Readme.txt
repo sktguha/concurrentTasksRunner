@@ -12,7 +12,7 @@ r.pushToRunner({
         var that = this;
         return new Promise(function (resolve, reject) {
             setTimeout(function(){
-                resume();
+                resolve();
             }, 2000);
         })
     },
