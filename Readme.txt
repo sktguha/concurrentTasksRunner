@@ -2,8 +2,8 @@ Async Task runner with success/failure signalling, binary heap, failure limiting
 To Run : open index.html in browser (should run properly without local server for now)
 usage(execute below in console, also see concurrencyImprovedSaikat.js, after line 108 for usages) :
 
-var r =  new Runner(3);
-r.pushToRunner({
+var runner =  new Runner(3);
+runner.pushToRunner({
     // this function needs to return a promise that resolves or rejects based on task
     // failed or completed. haven't tested this part but if timeout behaviour is required,
     // timeout can also be used
