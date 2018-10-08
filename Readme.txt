@@ -7,7 +7,8 @@ r.pushToRunner({
     // this function needs to return a promise that resolves or rejects based on task
     // failed or completed. haven't tested this part but if timeout behaviour is required,
     // timeout can also be used
-    // by rejecting the returned promise after certain timeout
+    // by rejecting the returned promise after certain timeout. however killing task if max
+    // time is exceeded is not done yet. i.e some task can hang up forever
     start: function () {
         var that = this;
         return new Promise(function (resolve, reject) {
