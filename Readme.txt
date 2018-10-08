@@ -1,4 +1,4 @@
-Async Task runner with failure limits and limit to number of slots available
+Async Task runner with failure limits, success/failure signalling and limit to number of slots available
 To Run : open index.html in browser
 usage(execute below in console, also see concurrencyImprovedSaikat.js, after line 108 for usages) :
 
